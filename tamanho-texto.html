@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tamanhos de textos</title>
+        <meta charset="utf-8" />
+
+        <style type="text/css">
+/* esse seria o pai*/
+            body {
+                font-size: 60px;
+            }
+
+            .texto {
+/* ja conhecemos a medida px = pixel um tamanho fixo (por padrão um paragrafo costuma ter 16px)
+% = que é um tamanho relativo (esse é o menos usado)
+em = tamanho relativo ao container pai
+*/
+                font-size: 1em;
+            }
+/*esse é o filho quem faz essa ligação é o 1em joga para o pai que diz que ele equivale a 60px   ( se eu colocasse 2em o texto teria o dobro do tamanho do outro e assim por diante) */
+            .texto2 {
+                font-size: 15px;
+/* também poderia ter aqui outro EM ex: font-size: 2em;*/
+            }
+/* podemos definir um tamanho em PX e utilizar dentro do site tanhamos através do EM para ter textos em tamanhos proporcionais
+*/
+    </style>
+    </head>
+    <body>
+        <div>
+        <p calss="texto">Conteúdo 1</p>
+        <p class="texto2">Conteúdo 2</p>
+    </div>
+
+    </body>
+
+</html>
