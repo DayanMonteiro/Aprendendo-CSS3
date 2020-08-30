@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cor e imagem de fundo</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+      /*
+            .fundo {
+                background-color: blue ;
+            } */
+
+            h1 {
+              /* background-image: url('imagens/yoshi.png'); inseri a imagem */
+              background-repeat: repeat-y;
+/*comando para não repetir a imagem insereida
+repeat-x (repete imagem na horizontal) repeat-y(repete imagem na vertical), repeat (que repete a imagem) e no-repeat (para não repetir)*/
+              background-attachment: fixed;
+/* background-attachment: fixed; esse comando deixa a imagem fixa independente do quanto o usuário mova a barra de rolagem a imagem sempre estará posicionada no local inserida */
+/* background-attachment: scroll; se utilizar o comando scroll a imagem fica parada ao utilizarmos a barra de rolagem*/
+              background-position: right center;
+/* esse comando de posição nos permite direcionar o posicionamento que queremos a imagem, inclusve ele aceita mais de um comando alinhando a imagem a esquerda (left) ou a direita (rigth). Também posso posicionar no topo (top) no centro (center) ou na parte inferior da pagina (bottom)... Conclusão no primeiro valor: left, center, right.... segundo valor: top, center, bottom... */
+            }
+            .fundo{
+              background: blue url('imagens/yoshi.png');
+            }
+    </style>
+  </head>
+  <body class="fundo">
+
+    <h1>Conteúdo de título 1</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    </p>
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+    <br><br><br><br><br><br>
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+    </p>
+
+  </body>
+</html>
