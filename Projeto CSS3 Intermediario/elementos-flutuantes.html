@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Página Principal</title>
+    <meta charset="utf-8" />
+
+    <style type="text/css">
+      .conteudo {
+        background: blue;
+        border: 1px solid gray;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        float: right;
+      }
+
+      .conteudo-zero {
+        background: red;
+        border: 1px solid gray;
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+/*no float posso aplicar lefth, righ, none ou both...*/
+      }
+
+      .clear{
+        clear: both;
+/* a propriedade clear limpa as caixas flutuantes... A propriedade clear do CSS especifica se um elemento pode ter elementos flutuantes ao seu lado ou se devem ser movidos para abaixo dele (clear). Essa propriedade se aplica à elementos flutuantes ou não flutuantes.*/
+      }
+
+      #principal{
+        border: 5px solid red;
+        background: green;
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <div id="principal">
+      <div class="conteudo">Conteudo 1</div>
+
+      <div class="conteudo">Conteudo 2</div>
+
+      <div class="conteudo">Conteudo 3</div>
+
+      <p class="clear">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dapibus, justo eu gravida vehicula, dolor mauris eleifend urna, in blandit ligula velit vel velit. Nunc et pellentesque risus. Praesent et dictum nulla, at lobortis metus. Quisque rhoncus posuere quam in ullamcorper. Aenean ut arcu eget nibh placerat luctus eu sit amet mauris. Proin hendrerit, quam a pharetra mattis, quam turpis imperdiet sem, vel eleifend dolor ante cursus nunc. Vestibulum dictum nisi ac augue convallis gravida. Maecenas dictum, augue vel laoreet aliquam, odio nulla feugiat justo, a ultrices mi risus sit amet nunc. Curabitur tristique maximus convallis. Donec commodo felis sit amet nisi porttitor bibendum. Sed ullamcorper, magna ac feugiat dignissim, eros leo hendrerit purus, sit amet ullamcorper ex ante vel tortor. Phasellus sagittis nibh egestas, bibendum ex non, ultrices sem. Nullam a ex consectetur, congue mauris in, dignissim mauris.
+      </p>
+
+      <!--<div class="clear">aa</div> -->
+
+
+
+  </div>
+    
+  </body>
+</html>
