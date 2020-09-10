@@ -1,3 +1,6 @@
+
+/************ AULA DE SELETORES *************/
+
 /****seletor universal, ou seja, tudo que estiver dentro da pagina ao usar o *{} estara sendo afetado pelas formatações contidas no seletor***/
 /* *{
     border: 1px solid red;
@@ -41,7 +44,52 @@ ele vai selecionar o primeiro elemento p depois de quaquer elemento h1
 }*/
 
 /***Seletor de irmão geral***/
-
+/*
 h1~p {
     color: red;
+}*/
+
+
+/****************** AULA DE HERANÇA *************/
+/*
+body {
+    color: red;
+}*/
+
+/* se eu tiver dois seletores iguais a formatação que vai ser aplicada, será a ultima fortamação
+p {
+    color: blue;
 }
+
+p {
+    color: red;
+}
+
+caso eu queira que não seja a ultima formatação a ser aplicada eu posso me utilizar do recurso important que aí ele faria essa formatação se sobresair, ficando assim:
+p {
+    color: blue !important;
+}*/
+
+/*se um seletor for igual ao outro, mas sua formatação for mais especifica que a outra irá predorminar a mais especifica sendo aplica a ambos*/
+/*
+* {
+    color: red;
+}
+h2{
+    color: blue;
+}
+Nesse caso eu tinha um seletor universal *{} definindo cores vermelhas, porem eu tinha um seletor mais especfco o h2 então o texto de h2 ficou azul.
+
+se eu tiver um mais especifico ainda 
+
+h2.verde{
+    color: green
+}  esse iria sobresair 
+h2#amarelo{
+    color: yellow;
+}
+se eu tivesse um ID ele iria se sobresair porque o ID é ainda mais especifico que uma class
+*/
+
+
+
