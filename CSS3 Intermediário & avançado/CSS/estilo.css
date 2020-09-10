@@ -1,0 +1,47 @@
+/****seletor universal, ou seja, tudo que estiver dentro da pagina ao usar o *{} estara sendo afetado pelas formatações contidas no seletor***/
+/* *{
+    border: 1px solid red;
+}
+
+/*** seletor de texto***/
+/* h1{
+    color: green;
+}
+
+/***Seletor de classe***/
+/* .verde{
+    color: green;
+}*/
+
+/* p.verde{
+    color: green;
+}
+
+/****Seletor de ID***/
+/*#cabecalho{
+    border: 1px solid blue;
+}
+
+/***Seletor de filho***/
+/* o > representa filho de, no caso le de tras pra frente sendo assim: a é filho de li*/
+/* li>a{  poderia ser outros elementos ex: div>ul, h1>p etc
+    color: red;
+    text-decoration: none; 
+}*/
+
+/***Seletor descendente ***/
+/* div a { /* seleciona links a que estejam dentro de um paragrafo p ....
+    color: green;
+}*/
+
+/***Seletor de irmão adjacente ***/
+/*h1+p {
+ele vai selecionar o primeiro elemento p depois de quaquer elemento h1
+  color: red;
+}*/
+
+/***Seletor de irmão geral***/
+
+h1~p {
+    color: red;
+}
