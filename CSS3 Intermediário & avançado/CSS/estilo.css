@@ -1,4 +1,3 @@
-
 /************ AULA DE SELETORES *************/
 
 /****seletor universal, ou seja, tudo que estiver dentro da pagina ao usar o *{} estara sendo afetado pelas formatações contidas no seletor***/
@@ -49,7 +48,6 @@ h1~p {
     color: red;
 }*/
 
-
 /****************** AULA DE HERANÇA *************/
 /*
 body {
@@ -91,5 +89,40 @@ h2#amarelo{
 se eu tivesse um ID ele iria se sobresair porque o ID é ainda mais especifico que uma class
 */
 
+/************* BARRA DE NAVEGAÇÃO VERTICAL ****/
+/*
+ul {
 
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
 
+li {
+    padding: 5px 20px;
+    background: url(../imagens/seta.png) no-repeat left center;
+}*/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul a {
+  /*border: 1px solid red;*/
+  width: 200px; /* defini a largura  */
+  height: 40px; /*definir a altura   */
+  display: block; /*todos os elementos definidos com display: block, aceitam as propriedades width e height utilizados acima*/
+  color: #000; /*defini a cor do texto do botão*/
+  text-decoration: none;
+  text-indent: 40px; /*defini o espaçamento do texto*/
+  line-height: 40px; /*defini o espaçamento do posicionamento do texto */
+  background: url(../imagens/menu.png) no-repeat left bottom; /* url para inserir imagem / no-repeat para não repetir a imagem visto q tenho uma imagem especial nesse caso que são dias em uma uma, left bottom para trazer essa segunda imagem para a esquerda do botão */
+}
+
+a:hover{
+    background-position: right bottom;
+ /* como minha imagem tem 400 px e ela são duas imagens em uma com cores diferentes, usando esse comando ao passar o mouse por cima a segunda imagem toma o lugar da primeira*/
+    color: #fff;
+}
