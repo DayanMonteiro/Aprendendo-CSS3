@@ -122,9 +122,19 @@ ul a {
   background: #f7b600 url(../imagens/menu.png) no-repeat left bottom; /* url para inserir imagem / no-repeat para não repetir a imagem visto q tenho uma imagem especial nesse caso que são dias em uma uma, left bottom para trazer essa segunda imagem para a esquerda do botão .... caso a imagem falhe eu tenho um plano B a cor #f7b600 se a imagem falhar ela assume o papel*/
 }
 
-a:hover{
-    background-position: right bottom;
-    background-color: #f99200;
- /* como minha imagem tem 400 px e ela são duas imagens em uma com cores diferentes, usando esse comando ao passar o mouse por cima a segunda imagem toma o lugar da primeira... aqui também tenho um plano B colocando o background-color */
-    color: #fff;
+a:hover {
+  background-position: right bottom;
+  background-color: #f99200;
+  /* como minha imagem tem 400 px e ela são duas imagens em uma com cores diferentes, usando esse comando ao passar o mouse por cima a segunda imagem toma o lugar da primeira... aqui também tenho um plano B colocando o background-color */
+  color: #fff;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticia #navegacao .noticia a,
+#contato #navegacao .contato a {
+  background-position: right bottom;
+  background-color: #f99200;
+  color: #fff;
 }
