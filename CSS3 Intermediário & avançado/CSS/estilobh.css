@@ -1,0 +1,44 @@
+/****   BARRA DE NAVEGAÇÃO HORIZONTAL  ****/
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 590px;
+  background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+  float: left; /*elemento flutuante*/
+}
+
+ul li {
+  /*display: inline; /* tambem daria para criar a barra horizontal, mas não é a melhor opção*/
+  float: left;
+}
+
+ul a {
+  display: block;
+  padding: 0 2.2em;
+  line-height: 2em; /*define a altura do espaço do menu*/
+  text-decoration: none;
+  color: #fff;
+  /*border-left: 1px solid gray; **** caso eu n tivesse uma imagem para dar o efeito de divisão entre as opções na barra de navegação eu poderia usar um border-left que tabém é uma opção */
+  background: url(../imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+  background: none;
+}
+
+ul a:hover {
+  /* comando que ao passar o mause sobre os icones da barra de navegação elas mudam de cor   */
+  color: #085662;
+  background: #44cade;
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a,
+#noticia #navegacao .noticia a,
+#contato #navegacao .contato a {
+  color: #085662;
+  background: #44cade;
+}
