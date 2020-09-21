@@ -1,0 +1,60 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto; /* lembrando que o auto centraliza o conteúdo*/
+    background: #fff;
+}
+
+#marca {
+    height: 100px;/*altura*/
+    background: #9e9e9e;/*fundo*/
+    text-align: center;/*texto centralizado*/
+    line-height: 100px; /*espaçamento entre as linhas*/
+}
+
+#conteudo {
+    width: 520px;
+    float: right; /*para posionar o conteúdo a direita*/
+}
+
+#conteudo-principal {
+    width: 320px;
+    float: left;
+}
+
+#conteudo-secundario {
+    width: 180px;
+    float: right;
+    background: #d1d1d1;
+}
+
+/*OBS ao somar 320px do conteudo principal com 120 do secundário*/
+
+#navegacao {
+    width: 180px;
+    float: left; /*para posicionar o conteudo a esquerda e assim navegação ficará de um lado e conteúdo do outro*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #d1d1d1;
+}
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li a {
+    text-decoration: none;
+}
+
+/* OBS nossa width do container tem 720ps nossa width do conteudo tem 520px e da vavegação tem 180px oou seja sobram 20px esses serão o espaçamento entre as duas */
+
+#rodape {
+    clear: both; /*limpa a propriedade flutuante*/
+    background: #c4c4c4;
+    padding: 5px;
+}
+
