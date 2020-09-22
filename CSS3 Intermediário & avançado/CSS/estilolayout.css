@@ -4,9 +4,11 @@ body{
 }
 
 #container {
-    width: 720px;
+    width: 85%;/*para layouts liquidos definiremos width em %*/
     margin: 0 auto; /* lembrando que o auto centraliza o conteúdo*/
     background: #fff;
+    min-width: 720px ; /* define uma largura minima para o container  */
+    max-width: 1280px; /* define a largura maxima para o container */
 }
 
 #marca {
@@ -17,25 +19,33 @@ body{
 }
 
 #conteudo {
-    width: 520px;
+    width: 75%;/* 520px daria 75%*/
     float: right; /*para posionar o conteúdo a direita*/
 }
 
 #conteudo-principal {
-    width: 320px;
+    width: 64%;/*320px para 64% */
     float: left;
 }
 
 #conteudo-secundario {
-    width: 180px;
+    width: 34%;
     float: right;
     background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /*OBS ao somar 320px do conteudo principal com 120 do secundário*/
 
 #navegacao {
-    width: 180px;
+    width: 23%; /*180px daria 25%*/
     float: left; /*para posicionar o conteudo a esquerda e assim navegação ficará de um lado e conteúdo do outro*/
     padding-top: 20px;
     padding-bottom: 20px;
