@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Estilizando Formulários</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CSS/estiloformularios.css" />
+  </head>
+
+  <body>
+    <h2>Estilizando Formulários</h2>
+    <form> <!--criar formulário-->
+         <fieldset> <!--serve para agrupar dados semelhantes -->
+            <legend>Detalhes de contato</legend> <!-- serve para agrupar esses dados-->
+            <div>
+                <label for="nome">Nome:</label> <!--para linkar o nome precisamos criar o for e o id com o mesmo nome-->
+                <input type="text" name="nome" id="nome">     
+                
+               <!-- <label>Nome: 
+                <input type="text" name="nome" id="nome"> </label>   obs outra forma seria envolver o input dentro da label, assim não precisaria ter a class for --> 
+                <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email"> 
+                </div>
+
+                <div>
+                <label for="url">URL:</label>
+                <input type="text" name="url" id="url"> 
+                </div> 
+            </div>
+
+         </fieldset>   
+         
+         <fieldset>
+             <legend>Comentários</legend>
+             <div>
+                 <label for="mensagem">Mensagem</label>
+                 <textarea name="mensagem" id="mensagem">
+                 </textarea>
+             </div>
+         </fieldset>
+
+         <fieldset>
+            <legend>Lembrar de mim </legend> 
+
+            <div>
+                <label>
+                    <input class="radio" type="radio" name="lembrar" id="sim">Sim
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input class="radio" type="radio" name="lembrar" id="nao">Não
+                </label>
+            </div>
+            
+        </fieldset>
+
+
+
+    </form>
+
+    
+    
+
+  </body>
+</html>
