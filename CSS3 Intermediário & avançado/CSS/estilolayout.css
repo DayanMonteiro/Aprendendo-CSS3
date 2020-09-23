@@ -4,9 +4,9 @@ body{
 }
 
 #container {
-    width: 85%;/*para layouts liquidos definiremos width em %*/
+    width: 960px;/*para layouts liquidos definiremos width em %*/
     margin: 0 auto; /* lembrando que o auto centraliza o conteúdo*/
-    background: #fff;
+    background: #fff url(../imagens/coluna.png)repeat-y left top;
     min-width: 720px ; /* define uma largura minima para o container  */
     max-width: 1280px; /* define a largura maxima para o container */
 }
@@ -61,7 +61,7 @@ img.img-noticia {
     float: left; /*para posicionar o conteudo a esquerda e assim navegação ficará de um lado e conteúdo do outro*/
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+    /*background: #d1d1d1;*/
 }
 
 #navegacao ul {
