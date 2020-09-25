@@ -83,11 +83,27 @@ body .fotos #navegacao a#fotos {
     background:#f5f5f5;
 }
 
+#lateral {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+    /* o primeiro numero é a parte superior o segundo a lateral direita o terceiro inferior e o quarto a esquerda,coloquei -750 pra empurrar a caixa para o canto esquerdo do site*/
+} 
+
 #primario {
     width: 270px;
     float: left; /* eu flutuo as caixas e consigo colocar elas ao lado uma da outra ao inves de uma embaixo da outra */
     margin: 0 0 20px 195px;/*esse codigo empurrou o conteudo da caixa abrindo espaço para que eu pudesse empurra o conteudo lateral pra ser a primeira coluna da esquedar do meu site*/
     background: blue ;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
+#duas-colunas #primario {
+    width: 555px;
 }
 
 #secundario {
@@ -97,14 +113,27 @@ body .fotos #navegacao a#fotos {
     background: green ;
 }
 
-#lateral {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    /* o primeiro numero é a parte superior o segundo a lateral direita o terceiro inferior e o quarto a esquerda,coloquei -750 pra empurrar a caixa para o canto esquerdo do site*/
-    background:yellow ;
+/*Caixa*/
+.caixa{
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png) ;
 }
 
+h2 {
+    font-size: 1em;/*tamanho da letra*/ 
+    background: #294c71;/*cor do fundo to título*/
+    color: #fff; /*cor da letra do título*/
+    padding: 5px; /*espaçamento interno dentro da caixa*/
+}
+
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*Rodape*/
 #container-rodape{
     background: #294c71;
     padding: 20px;
