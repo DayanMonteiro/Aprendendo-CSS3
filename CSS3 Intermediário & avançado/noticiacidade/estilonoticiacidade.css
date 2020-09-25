@@ -94,7 +94,6 @@ body .fotos #navegacao a#fotos {
     width: 270px;
     float: left; /* eu flutuo as caixas e consigo colocar elas ao lado uma da outra ao inves de uma embaixo da outra */
     margin: 0 0 20px 195px;/*esse codigo empurrou o conteudo da caixa abrindo espaço para que eu pudesse empurra o conteudo lateral pra ser a primeira coluna da esquedar do meu site*/
-    background: blue ;
 }
 
 #uma-coluna #primario {
@@ -110,7 +109,6 @@ body .fotos #navegacao a#fotos {
     width: 270px;
     float: left;
     margin: 0 0 20px 15px;
-    background: green ;
 }
 
 /*Caixa*/
@@ -168,6 +166,34 @@ input.submit {
     color: #fff;
     background-color: #b10333;
     border: 2px solid #870529;
+}
+
+/*Formatação de imagens*/
+
+/*img {
+    border: 2px solid #dfdfdf;
+}*/
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+/*Formatação de cabeçalhos*/
+h3 {
+    text-transform: uppercase; /* para deixar as letras maiúsculas*/
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
 }
 
 /*Rodape*/
