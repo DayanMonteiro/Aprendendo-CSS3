@@ -29,6 +29,14 @@ body{
 }
 
 /*** Barra de navegação ***/
+a:link, a:visited {
+    color: #b10333;
+    padding: 2px;
+}
+
+a:hover {
+    color: #e50040;
+}
 
 ul {
     margin: 0;
@@ -194,6 +202,38 @@ h3 {
 
 .entrevista h3 {
     background: #de003e;
+}
+
+/*Formatação de lista de notícias*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img { /*formateremos a imagem que esta dentro de um link dentro de uma li dentro da lista de notícias*/
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {  
+    text-decoration: none;
+}
+
+#lista-noticias li a h3 {  
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {  
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover {  
+    background: #eee;
+    cursor: pointer;
 }
 
 /*Rodape*/
