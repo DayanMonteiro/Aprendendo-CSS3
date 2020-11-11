@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Bring Heart";
+    src: url("../fontes/BringHeart.woff");
+}
+
+#caixa {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background: url("../imagens/camera.png");
+    float: left;
+}
+
+#caixa h1 {
+    background: rgba(255, 255, 255, 0.5); /* site para pegar cores https://www.w3schools.com/css/css_colors.asp  */
+    text-align: center;
+}
+
+#caixa p {
+    color: #F0FFF0;
+    text-align: justify;
+    padding: 5px;
+    font-size: 25px;
+    font-family: "Bring Heart";
+}
+
+#caixa2 {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); /*site para exemplos https://www.w3schools.com/css/css3_gradients.asp */
+    /*linear-gradient( to top // to left // to rigth, to bottom posso usar esses comandos para definir de onde quero iniciar o efeito gradiente )*/
+    /*linear-gradient(80deg) posso definir em graus a rotação do degrade com o comando deg  */
+    float: right;
+}
+
+#caixa2 h1 {
+    text-align: center;
+}
+
+#caixa2 p {
+    text-align: justify;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#caixa3 {
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    background: radial-gradient(green, yellow);
+    float: right; 
+}
+
+#caixa3 h1 {
+    text-align: center;
+}
+
+#caixa3 p {
+    font-family: Verdana, sans-serif;
+    text-align: justify;
+    padding: 5px;
+    font-size: 18px;
+}
