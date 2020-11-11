@@ -1,0 +1,16 @@
+#caixa { /* https://www.w3schools.com/cssref/css3_pr_box-shadow.asp */
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    margin: 20px;
+    background: #009670;
+    box-shadow: 20px 20px 2px 10px rgba(0,0,0,0.6);
+}
+
+#caixa h1 { /* https://www.w3schools.com/cssref/css3_pr_text-shadow.asp */
+    color: white;
+    /*text-shadow: 20px 20px #b4b4b4;*/
+    text-shadow: 20px 20px 3px rgba(0,0,0,0.6); 
+    /*o primeiro valor define se positivo para direita se negativo para esquerda // o segundo valor define se positivo pra baixo, se negativo pra cima // o terceiro valor define opacidade na visualização //*/
+}
+
