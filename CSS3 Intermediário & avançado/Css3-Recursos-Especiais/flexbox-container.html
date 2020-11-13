@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Flexbox - Flexible Box Layout</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+
+        #conteudo {
+            background: #dcdcdc;
+            width: 600px;
+            height: 600px;
+            display: flex;
+
+            /* row | row-reverse | column | column-reverse */
+            flex-direction: row;
+
+            /* nowrap | wrap | wrap-reverse */
+            flex-wrap: nowrap;
+
+            /* justify-content - faço alinhamentos horizontais usando os comandos  ||flex-start | flex-end | center | space-between | space-around */
+            justify-content: space-between;
+
+            /* se eu aplicar display: flex &  justify-content - é possivel  eliminar aquele trabalho todo que eu faria os posicionamentos das box sem trabalhar margin e float */
+
+            /* align-items: com os comandos ||
+            stretch | center | flex-start | flex end | baseline */
+            align-items: baseline;
+        }
+
+        .item {
+            margin: 10px;
+            background: white;
+            border: 1px solid gray;
+        }
+
+    </style>
+    
+</head>
+
+<body>
+
+    <H1>Flexbox</H1>
+    <div id="conteudo">
+        <div class="item" style="padding-top: 60px">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+        <div class="item">05<br>Mais conteúdo</div>
+    </div>
+
+
+</body>
+</html>
+
