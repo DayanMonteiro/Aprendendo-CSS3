@@ -15,7 +15,7 @@
         }
 
         .item {
-            width: 100px;
+           /* width: 200px;*/
             height: 100px;
             margin: 10px;
             background: white;
@@ -23,19 +23,26 @@
 
             /* define proporção de espaço ocupado por um item*/
             flex-grow: 0;
+            /* define a capacidade de redução de tamanho*/
+            flex-shrink: 1;
+            /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante  */
+            flex-basis: 200px;
 
         }
 
         .item1 {
-           flex-grow: 1;
+           /*flex-grow: 1;*/
+          /* flex-shrink: 1;*/
         }
 
         .item2 {
-           flex-grow: 2;
+          /* flex-grow: 2;*/
+         /* flex-shrink: 2;*/
         }
 
         .item3 {
-           flex-grow: 2;
+           /*flex-grow: 2;*/
+          /* flex-shrink: 5;*/
         }
 /*
 /*
